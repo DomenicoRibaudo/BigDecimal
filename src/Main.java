@@ -21,6 +21,7 @@ public class Main {
         System.out.println("Risultato: " + risultato);
     }
 
+    // metodo per calcolare l'operazione richiesta e e ritorni il risultato.
     public static BigDecimal eseguiOperazione(EnumOperazione operazione, BigDecimal num1, BigDecimal num2) {
         switch (operazione) {
             case ADDIZIONE:
